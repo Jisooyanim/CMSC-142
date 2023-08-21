@@ -1,0 +1,41 @@
+tokenized_sents = [word_tokenize(i) for i in list]
+for i in tokenized_sents:
+    print(i)
+
+for element in list:
+    for char in element:
+        e = len(element)
+        if char == '=':
+            count += 1
+        if char == '-':
+            count += 1
+        if char == '+':
+            count += 1
+        if char == '<':
+            count += 1
+        if char == '>':
+            count += 1
+        if char == '<<':
+            count += 1
+        if char == '>>':
+            count += 1
+print(count)
+for line in token:
+    for element in range(len(line)):
+        if element == '=':
+            count += 1
+        if element == '-':
+            count += 1
+        if element == '+':
+            count += 1
+        if element == '<':
+            count += 1
+        if element == '>':
+            count += 1
+        #if element == '<<':
+        #    count += 1
+        #if element == '>>':
+        #    count += 1
+
+
+print(count)
